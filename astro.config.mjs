@@ -17,5 +17,6 @@ export default defineConfig({
     drafts: true
   },
   site: 'https://lorikarikari.github.io',
+	base: 'i-talent',
   integrations: [tailwind(), sitemap(), mdx()]
 });
